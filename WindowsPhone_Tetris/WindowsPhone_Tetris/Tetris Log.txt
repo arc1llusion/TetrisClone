@@ -1,0 +1,33 @@
+Tetris Log
+
+Seminar 3
+-Created base image for Tetromino segments
+-Drafted and implemented Tetromino rotations
+-Created TetrominoFactory and Tetromino classes
+-Created base test area in Game1 class to check rotations
+-Created Field class and added LineClears, Insertion, and initial Draw Field method
+
+-Created ScreenManager, GameScreen classes for intents of adding options screen later
+-Created GameplayScreen class and moved tetromino logic there as well as Field
+-Created initial Gameplay States: Initialize Tetromino, Tetromino Falling, Line Clearing, and Game Over
+-Added logic to drop tetromino, but line clears and movement are still not implemented
+
+Seminar 4
+-Reshaped image for color tinting. Intend to get production images in Seminar 5
+-Added primitive arrow buttons to test Tetris movement. These are bad, I know.
+-Added the movement logic and added a function to take care of it from any direction
+-Added the drop tetromino logic
+-Added additional draw methods in Field to reuse Tetromino drawing code within the field
+
+-Added additional gameplay states: Lock Down and Paused
+-Implemented line clears
+-Implemented Ghost Piece, reuses code to find the drop position as if user dropped the tetromino
+-Added draw overloaded method in field to draw ghost piece
+-Implemented delay factor and Lock Down state
+
+-Added Level line requirements and added logic to level up
+-Added additional lines per Tetris clear. Once T-Spin checks are rotated we can add this
+-Modifying all rotation Matrices to match the Super Rotation System matrix for proper rotation
+-Disabled wall push rotation and instead prevented rotation for now
+-Added Score componenet to Gameplay Screen
+

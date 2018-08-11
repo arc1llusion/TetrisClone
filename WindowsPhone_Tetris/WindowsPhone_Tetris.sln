@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsPhone_Tetris", "WindowsPhone_Tetris\WindowsPhone_Tetris\WindowsPhone_Tetris.csproj", "{BE077B81-EEEA-4EE4-979D-83F62AF531F0}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "WindowsPhone_TetrisContent", "WindowsPhone_Tetris\WindowsPhone_TetrisContent\WindowsPhone_TetrisContent.contentproj", "{EE21588B-F29E-45BF-97DE-23BA8C6A1868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{BE077B81-EEEA-4EE4-979D-83F62AF531F0}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{EE21588B-F29E-45BF-97DE-23BA8C6A1868}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{EE21588B-F29E-45BF-97DE-23BA8C6A1868}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+About
+-------------
+Tetris is a game meant to entertain and challenge. The tetrominos can be strategically placed to clear lines and increase the score. A total of 15 levels are supported.
+
+To Do
+--
+This section briefs some things that I did not get time to complete
+
+-Responding to system events. This is fairly involved due to the data of the tetris field and random bag components. More time would have been needed to implement this. The skeleton is there, however.
+
+-Fix controls and UI. It would have been better to have a "Left, soft down, hard drop, Right" control scheme on the bottom, with rotation anywhere else. Additionally, the next and hold boxes should have been made consistent.
+
+-Reading the audio files from an XML file, as well as the control to select the audio. While we're at it, probably creating a more robust audio handler. For tetris though it works fine.
+
+-Build an actual AI for the demo mode
+
+-Build a pause feature
+
+
+Credits
+-------------
+
+Music
+--
+Tetris Classic - The Tetris Company (c)
+
+Tetris Acapella - RLFHOG3 from NewGrounds - http://www.newgrounds.com/audio/listen/384530
+Tetris Meets Metal - 331Erock - http://www.youtube.com/user/331Erock?feature=watch
+
+
+
+Icon
+--
+Tetris Icon - Craig Phillips - http://www.softicons.com/free-icons/designers/craig-philips
+
+
+Other
+--
+The Tetris(r) logo belongs to the Tetris Company.
